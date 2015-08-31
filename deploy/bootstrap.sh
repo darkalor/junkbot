@@ -1,5 +1,10 @@
 #!/bin/bash
 
+DB_PASSWORD='root'
+XDEBUG_HOST='localhost'
+XDEBUG_PORT='9000'
+XDEBUG_IDEKEY='PHPStorm'
+
 # package update
 apt-get -y update
 apt-get -y upgrade
